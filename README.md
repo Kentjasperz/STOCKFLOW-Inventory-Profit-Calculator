@@ -1,4 +1,4 @@
 # STOCKFLOW-Inventory-Profit-Calculator
 STOCKFLOW: Inventory &amp; Profit Calculator
 
-A desktop GUI application for small business owners to track inventory levels, monitor profitability, and identify sales performance trends in real-time. The system replaces manual spreadsheet tracking with automated calculations, visual alerts, and data-driven restock recommendations.
+The StockFlow system helps business owners track inventory and monitor profit. It uses vectors to store multiple items and their records, and structs to group related data like names, quantities, costs, and prices. Each item is tracked based on sales and stock levels. The program then identifies top performers and flag items needing immediate attention.
