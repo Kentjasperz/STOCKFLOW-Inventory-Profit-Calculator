@@ -126,7 +126,7 @@ void checkStatus() {
     
     cout << "\n--- STOCK STATUS ---\n";
     for (int i = 0; i < inventory.size(); i++) {
-        cout << inventory[i].name << ": " 
+        cout << "[" << i+1 << "]" << inventory[i].name << ": " 
              << inventory[i].current_qty << " units - "
              << getStockLevel(inventory[i].current_qty) << "\n";
     }
@@ -147,7 +147,7 @@ void totalProfit() {
         double profit = margin * sold;
         total += profit;
         
-        cout << inventory[i].name << ": P" << fixed << setprecision(2) 
+        cout  << "[" << i+1 << "]" << inventory[i].name << ": P" << fixed << setprecision(2) 
              << profit << " (" << sold << " sold)\n";
     }
     
