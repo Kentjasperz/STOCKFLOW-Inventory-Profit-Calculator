@@ -90,8 +90,6 @@ void editItem() {
     cout << "\nEditing: " << inventory[idx].name << "\n";
     cout << "New Current Quantity: ";
     cin >> inventory[idx].current_qty;
-    cout << "New Selling Price: ";
-    cin >> inventory[idx].price;
     
     cout << "✓ Item updated!\n";
 }
