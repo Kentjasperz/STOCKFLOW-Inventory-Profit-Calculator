@@ -50,9 +50,6 @@ void addItem() {
     
     inventory.push_back(item);
     
-    int sold = item.initial_qty - item.current_qty;
-    double profit = (item.price - item.cost) * sold;
-    
     cout << "\n✓ Item Added Successfully!\n";
 }
 
